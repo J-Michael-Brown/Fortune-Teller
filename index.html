@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Teller</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>What's your Fortune?</h2>
+      </div>
+      <form id="luckSurvey">
+        <div class="form-group">
+          <p>In the past year, have any of these events occured:</p>
+          <input type="checkbox" name="misfortune" value="blackCat">See a black cat.<br>
+          <input type="checkbox" name="misfortune" value="ladder">Walk under a ladder.<br>
+          <input type="checkbox" name="misfortune" value="crossroad">Stop at a crossroad at night.<br>
+          <input type="checkbox" name="misfortune" value="graveyard">Drive by a graveyard without holding your breath.<br>
+          <input type="checkbox" name="misfortune" value="mirror">Broke a mirror.<br>
+          <input type="checkbox" name="misfortune" value="sound">Heard unexpected sound at night.<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, have any of these events occured:</p>
+          <input type="checkbox" name="luckyEvent" value="rainbow">See double Rainbow.<br>
+          <input type="checkbox" name="luckyEvent" value="clover">Finding a four-leaf-clover.<br>
+          <input type="checkbox" name="luckyEvent" value="dollar">Finding a dollar.<br>
+          <input type="checkbox" name="luckyEvent" value="ladybug">Ladybug landing your shoulder.<br>
+          <input type="checkbox" name="luckyEvent" value="numbers">Dreaming of numbers.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+        <span class="answers" id="fortuneOne">
+          <p><b>You are super unlucky; I've heard tipping fortune tellers helps your luck.</b></p>
+        </span>
+        <br>
+        <span class="answers" id="fortuneTwo">
+          <p><b>Watch your back...</b></p>
+        </span>
+        <span class="answers" id="fortuneThree">
+          <p><b>You are blessed with good fortune.</b></p>
+        </span>
+    </div>
+  </body>
+</html>
